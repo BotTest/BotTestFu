@@ -277,7 +277,6 @@
             autodisable: true,
             commandCooldown: 30,
             usercommandsEnabled: true,
-            thorInterval: 10,
             skipPosition: 3,
             skipReasons: [
                 ["theme", "This song does not fit the room theme. "],
@@ -313,7 +312,6 @@
             }
         },
         room: {
-            usersUsedThor: [],
             name: null,
             users: [],
             afkList: [],
