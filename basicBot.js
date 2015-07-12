@@ -3770,7 +3770,7 @@
 					return API.sendChat(subChat(basicBot.chat.allahuakbardeuruim, {name: from}));
 				}
 			} else {
-				return void(0);
+					return void(0);
 			}
 		}
 		},
