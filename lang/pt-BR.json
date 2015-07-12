@@ -187,6 +187,11 @@
     "website": "/me Visite nosso site: %%LINK%%",
     "youtube": "/me [%%NAME%%] Inscreva-se no nosso canal: %%LINK%%",
     "songstatistics": "/me %%ARTIST%% - %%TITLE%%: %%WOOTS%%W/%%GRABS%%G/%%MEHS%%M."
+    "downloadytlink": "@%%NAME%% você pode baixar este vídeo por aqui: %%LINK%%",
+    "downloadsclink": "@%%NAME%% você pode baixar esta música por aqui: %%LINK%%",
+    "allahuakbarseguro": "/me @%%NAME%% você está seguro e não pode ser explodido",
+    "allahuakbardeubom": "/me @%%NAME%% você escapou de um terrorista :D",
+    "allahuakbardeuruim": "/me @%%NAME%% você foi explodido e saiu da lista de DJs :(",
     "thornemperto": "/me @%%NAME%% você não é digno nem de chegar perto do martelo.",
     "thorcd": "/me @%%NAME%% você só poderá tentar levantar o martelo novamente em %%TIME%% minutos.",
     "thordigno": "/me @%%NAME%% você é digno do martelo, meus parabéns. Subirá para #1 na fila!",
