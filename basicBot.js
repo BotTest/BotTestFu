@@ -1432,8 +1432,8 @@
                 }
                 API.chatLog('Emojis desativados');
             }
-            API.chatLog('Capacidade de avatares ' + basicBot.settings.startupCap);
-            API.chatLog('Volume ajustado para ' + basicBot.settings.startupVolume);
+            API.chatLog(':1234: Capacidade de avatares ' + basicBot.settings.startupCap);
+            API.chatLog(':signal_strength: Volume ajustado para ' + basicBot.settings.startupVolume);
             socket();
             loadChat(API.sendChat(subChat(basicBot.chat.online, {botname: basicBot.settings.botName, version: basicBot.version})));
         },
