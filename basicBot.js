@@ -1714,7 +1714,7 @@
             },
 
             ballCommand: {
-                command: ['8ball', 'ask'],
+                command: ['ball', 'ask','qa'],
                 rank: 'user',
                 type: 'startsWith',
                 functionality: function (chat, cmd) {
@@ -1874,7 +1874,7 @@
             },
 
             commandsCommand: {
-                command: 'commands',
+                command: ['commands', 'comandos', 'cmd'],
                 rank: 'user',
                 type: 'exact',
                 functionality: function (chat, cmd) {
@@ -2217,7 +2217,7 @@
             },
 
             ghostbusterCommand: {
-                command: 'ghostbuster',
+                command: ['ghostbuster', 'ghost', 'fantasma'],
                 rank: 'user',
                 type: 'startsWith',
                 functionality: function (chat, cmd) {
@@ -2957,7 +2957,7 @@
             },
 
             rouletteCommand: {
-                command: 'roulette',
+                command: ['roulette', 'roleta', 'rodaroda'],
                 rank: 'mod',
                 type: 'exact',
                 functionality: function (chat, cmd) {
