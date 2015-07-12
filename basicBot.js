@@ -1907,9 +1907,30 @@
             },
 
             cookieCommand: {
-                command: 'cookie',
+                command: ['troll', 'thebosh', 'zoeira'],
                 rank: 'user',
                 type: 'startsWith',
+                cookies: ['pediu pra você soltar o baseado, bicha!',
+                    'falou que nem com pacto você fica bonita',
+                    'chamou a Madonna pra sugar sua juventude',
+                    'chamou a Avril pra sugar sua juventude',
+                    'ADIDIUÁ PAPAPUM!',
+                    'quer te vender trufa',
+                    'tirou 8 bolas de boliche do cu para vocês jogarem juntos',
+                    'disse que você é flop',
+                    'pediu pra você engravidar ele(a)',
+                    'disse: BUY ARTPOP ON ITUNES! :large_blue_circle:',
+                    'disse: BUY GOOD FOR YOU ON ITUNES!',
+                    'disse: BUY COOL FOR THE SUMMER ON ITUNES',
+                    'ligou pro Jayz Z Airlines pedindo pra derrubar seu próximo vôo',
+                    'disse: please freestyle for us!',
+                    'disse que você ta se achando a rola que matou Cazuza',
+                    'disse pra você parar de tentar fazer o barro acontecer, isso nunca mais pegar',
+                    'espalhou pra todo mundo que te deu ontem!',
+                    'quer criar um álbum jazz com você porque são 2 flop',
+                    'te jogou um feitiço pra flopar na roleta',
+                    'disse pra você mandar nudes :full_moon_with_face:'
+                ],
                 getCookie: function (chat) {
                     var c = Math.floor(Math.random() * basicBot.chat.cookies.length);
                     return basicBot.chat.cookies[c];
