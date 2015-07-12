@@ -171,7 +171,7 @@
     "roomrules": "/me Encontre as regras da sala aqui: %%LINK%%",
     "sessionstats": "/me [@%%NAME%%] Quantidade total de :+1: woots: %%WOOTS%% | :thumbsdown: mehs: %%MEHS%% | :star: grabs: %%GRABS%%.",
     "forceskip": "/me [%%NAME%% usou forceskip]",
-    "madeby": "/me Este bot foi feito por %%NAME%% e editado por fu :blush:",
+    "madeby": "/me Este bot foi feito por %%NAME%% e editado por ufu :blush:",
     "activefor": "Estive online por %%TIME%%.",
     "swapinvalid": "/me [@%%NAME%%] Usu\u00e1rio inv\u00e1lido.",
     "swapwlonly": "/me [@%%NAME%%] Use !swap somente com usuários que estão na fila de espera.",
