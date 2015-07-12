@@ -249,7 +249,7 @@
         retrieveFromStorage: retrieveFromStorage,
         settings: {
             botName: "basicBot",
-            language: "english",
+            language: "portuguese",
             chatLink: "https://rawgit.com/BotTest/BotTestFu/master/lang/en.json",
             roomLock: false, // Requires an extension to re-load the script
             startupCap: 1, // 1-200
