@@ -3706,6 +3706,7 @@
                 }
             }
         }
+    };
 			},
 			thorCommand: {
 				command: 'thor',
