@@ -3707,7 +3707,6 @@
                     }
                 }
             },
-
 			allahuakbarCommand: {
 				command: ['allahuakbar','aIIahuakbar'],
 				rank: 'user',
