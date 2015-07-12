@@ -3706,7 +3706,7 @@
                         }
                     }
                 }
-             },
+            },
 
 			allahuakbarCommand: {
 				command: ['allahuakbar','aIIahuakbar'],
