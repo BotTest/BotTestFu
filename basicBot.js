@@ -1423,14 +1423,14 @@
                 if (emojibuttonoff.length > 0) {
                     emojibuttonoff[0].click();
                 }
-                API.chatLog(':smile: Emojis ativados.');
+                API.chatLog(':smile: Emojis ativados');
             }
             else {
                 var emojibuttonon = $(".icon-emoji-on");
                 if (emojibuttonon.length > 0) {
                     emojibuttonon[0].click();
                 }
-                API.chatLog('Emojis desativados.');
+                API.chatLog('Emojis desativados');
             }
             API.chatLog('Capacidade de avatares ' + basicBot.settings.startupCap);
             API.chatLog('Volume ajustado para ' + basicBot.settings.startupVolume);
