@@ -3706,7 +3706,71 @@
                 }
             }
         }
-    }
+        			downloadCommand: {
+				command: ['download','dl'],
+				rank: 'user',
+				type: 'exact',
+				functionality: function (chat, cmd) {
+					if (this.type === 'exact' && chat.message.length !== cmd.length)
+						return void(0);
+					if (basicBot.commands.executable(this.rank, chat)) {
+						var media = API.getMedia(),
+							from = chat.un;
+
+						switch (media.format) {
+							case 1:
+								var linkToSong = "https://www.ssyoutube.com/watch?v=" + media.cid;
+								return API.sendChat(subChat(basicBot.chat.downloadytlink, {name: from, link: linkToSong}));
+							break;
+							case 2:
+								SC.get('/tracks/' + media.cid, function (sound) {
+									return API.sendChat(subChat(basicBot.chat.downloadsclink, {name: from, link: sound.permalink_url}));
+								});
+							break;
+							default:
+								return API.sendChat('Não foi possível localizar o link de download.');
+							break;
+						}
+					} else {
+						return void(0);
+					}
+				}
+			},
+			allahuakbarCommand: {
+				command: ['allahuakbar','aIIahuakbar'],
+				rank: 'user',
+				type: 'exact',
+				functionality: function (chat, cmd) {
+					if (this.type === 'exact' && chat.message.length !== cmd.length)
+						return void(0);
+					if (basicBot.commands.executable(this.rank, chat)) {
+						var id = chat.uid,
+							isDj = API.getDJ().id == id ? true : false;
+							from = chat.un,
+							djlist = API.getWaitList(),
+							inDjList = 0,
+							morreu = Math.floor(Math.random() * (2 - 0)) + 0;
+
+						for (var i = 0; i < djlist.length; i++) {
+							if (djlist[i].id == id)
+								inDjList = true;
+						}
+
+						if (isDj) {
+							API.moderateForceSkip();
+							return API.sendChat(subChat(basicBot.chat.allahuakbardeuruim, {name: from}));
+						} else if (!inDjList) {
+							return API.sendChat(subChat(basicBot.chat.allahuakbarseguro, {name: from}));
+						} else if (morreu == 0) {
+							return API.sendChat(subChat(basicBot.chat.allahuakbardeubom, {name: from}));
+						} else if (morreu == 1) {
+							API.moderateRemoveDJ(id);
+							return API.sendChat(subChat(basicBot.chat.allahuakbardeuruim, {name: from}));
+						}
+					} else {
+						return void(0);
+					}
+				}
 			},
 			thorCommand: {
 				command: 'thor',
@@ -3780,7 +3844,8 @@
 				}
 			}
 		}
-	};
+    };
+
 
     loadChat(basicBot.startup);
 }).call(this);
