@@ -3704,7 +3704,7 @@
                 }
             }
         }
-	};
+    };
 	
 
     loadChat(basicBot.startup);
