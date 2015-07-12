@@ -254,7 +254,7 @@
             roomLock: false, // Requires an extension to re-load the script
             startupCap: 1, // 1-200
             startupVolume: 0, // 0-100
-            startupEmoji: true, // true or false
+            startupEmoji: false, // true or false
             autowoot: true,
             autoskip: false,
             smartSkip: true,
@@ -1423,14 +1423,14 @@
                 if (emojibuttonoff.length > 0) {
                     emojibuttonoff[0].click();
                 }
-                API.chatLog(':smile: Emojis enabled.');
+                API.chatLog(':smile: Emojis ativados.');
             }
             else {
                 var emojibuttonon = $(".icon-emoji-on");
                 if (emojibuttonon.length > 0) {
                     emojibuttonon[0].click();
                 }
-                API.chatLog('Emojis disabled.');
+                API.chatLog('Emojis desativados.');
             }
             API.chatLog('Avatars capped at ' + basicBot.settings.startupCap);
             API.chatLog('Volume set to ' + basicBot.settings.startupVolume);
