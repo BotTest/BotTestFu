@@ -3706,8 +3706,8 @@
                 }
             }
         }
-    },
-
+    }
+			},
 			thorCommand: {
 				command: 'thor',
 				rank: 'user',
