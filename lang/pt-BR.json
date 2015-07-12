@@ -195,5 +195,5 @@
     "thornemperto": "/me @%%NAME%% você não é digno nem de chegar perto do martelo.",
     "thorcd": "/me @%%NAME%% você só poderá tentar levantar o martelo novamente em %%TIME%% minutos.",
     "thordigno": "/me @%%NAME%% você é digno do martelo, meus parabéns. Subirá para #1 na fila!",
-    "thorndigno": "/me @%%NAME%% você não é digno do martelo."
+    "thorndigno": "/me @%%NAME%% você não é digno do martelo.",
 }
