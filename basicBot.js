@@ -3706,7 +3706,7 @@
                 }
             }
         }
-     }
+     },
         			downloadCommand: {
 				command: ['download','dl'],
 				rank: 'user',
