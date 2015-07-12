@@ -186,7 +186,7 @@
     "voteratio": "/me [@%%NAME%%] @%%USERNAME%% ~ :+1: woots: %%WOOT%% | :thumbsdown: mehs: %%MEHS%%, taxa/proporção (w/m): %%RATIO%%.",
     "website": "/me Visite nosso site: %%LINK%%",
     "youtube": "/me [%%NAME%%] Inscreva-se no nosso canal: %%LINK%%",
-    "songstatistics": "/me %%ARTIST%% - %%TITLE%%: %%WOOTS%%W/%%GRABS%%G/%%MEHS%%M."
+    "songstatistics": "/me %%ARTIST%% - %%TITLE%%: %%WOOTS%%W/%%GRABS%%G/%%MEHS%%M.",
     "downloadytlink": "@%%NAME%% você pode baixar este vídeo por aqui: %%LINK%%",
     "downloadsclink": "@%%NAME%% você pode baixar esta música por aqui: %%LINK%%",
     "allahuakbarseguro": "/me @%%NAME%% você está seguro e não pode ser explodido",
