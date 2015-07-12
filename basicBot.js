@@ -3706,10 +3706,9 @@
                 }
             }
         }
-     }
- },
-  
-        			downloadCommand: {
+    };
+},
+			downloadCommand: {
 				command: ['download','dl'],
 				rank: 'user',
 				type: 'exact',
@@ -3847,8 +3846,8 @@
 				}
 			}
 		}
-    };
-
+	};
+	
 
     loadChat(basicBot.startup);
 }).call(this);
