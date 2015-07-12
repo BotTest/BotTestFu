@@ -262,7 +262,6 @@
             maximumAfk: 120,
             afkRemoval: true,
             maximumDc: 60,
-            thorInterval: 10,
             bouncerPlus: true,
             blacklistEnabled: true,
             lockdownEnabled: false,
@@ -278,6 +277,7 @@
             autodisable: true,
             commandCooldown: 30,
             usercommandsEnabled: true,
+            thorInterval: 10,
             skipPosition: 3,
             skipReasons: [
                 ["theme", "This song does not fit the room theme. "],
@@ -313,12 +313,12 @@
             }
         },
         room: {
+            usersUsedThor: [],
             name: null,
             users: [],
             afkList: [],
             mutedUsers: [],
             bannedUsers: [],
-            usersUsedThor: [],
             skippable: true,
             usercommand: true,
             allcommand: true,
